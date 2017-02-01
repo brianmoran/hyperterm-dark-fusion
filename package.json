@@ -1,6 +1,6 @@
 {
   "name": "hyperterm-dark-fusion",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dark Fusion theme for Hyperterm",
   "main": "index.js",
   "scripts": {

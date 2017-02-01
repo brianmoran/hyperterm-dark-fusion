@@ -20,17 +20,17 @@ const colors = {
 	green: green,
 	yellow: blue,
 	blue: orange,
-	magenta: orange,
+	magenta: blue,
 	cyan: gray,
-	white: foregroundColor,
+	white: orange,
 	lightBlack: backgroundColor,
-	lightRed: red,
+	lightRed: orange,
 	lightGreen: green,
 	lightYellow: blue,
-	lightBlue: orange,
-	lightMagenta: orange,
+	lightBlue: blue,
+	lightMagenta: blue,
 	lightCyan: gray,
-	lightWhite: foregroundColor
+	lightWhite: orange
 }
 
 exports.decorateConfig = config => {
