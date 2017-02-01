@@ -1,0 +1,25 @@
+{
+  "name": "hyperterm-dark-fusion",
+  "version": "0.0.2",
+  "description": "Dark Fusion theme for Hyperterm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianmoran/hyperterm-dark-fusion"
+  },
+  "keywords": [
+    "hyperterm",
+    "hyperterm-theme",
+    "dark-fusion",
+    "atom-dark-fusion"
+  ],
+  "author": "bmoran79@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianmoran/hyperterm-dark-fusion/issues"
+  },
+  "homepage": "https://github.com/brianmoran/hyperterm-dark-fusion#readme"
+}
