@@ -3,29 +3,31 @@
 const foregroundColor = '#cedde0'
 const backgroundColor = '#2f3542'
 const black = backgroundColor
-const blue = '#44C0C6'
+const cyan = '#44C0C6'
 const orange = '#FC8458'
-const gray = '#3d424b'
 const brightBlack = backgroundColor
 const brightWhite = foregroundColor
+const gray = '#3d424b'
+const green = '#cae359'
+const lightOrange = '#D1BC92'
 
 const colors = {
 	black: backgroundColor,
-	red: blue,
-	green: orange,
-	yellow: blue,
-	blue: orange,
-	magenta: blue,
-	cyan: gray,
-	white: orange,
+	red: orange,
+	green: green,
+	yellow: orange,
+	blue: cyan,
+	magenta: orange,
+	cyan: cyan,
+	white: foregroundColor,
 	lightBlack: backgroundColor,
 	lightRed: orange,
-	lightGreen: orange,
-	lightYellow: blue,
-	lightBlue: blue,
-	lightMagenta: blue,
-	lightCyan: gray,
-	lightWhite: orange
+	lightGreen: green,
+	lightYellow: lightOrange,
+	lightBlue: cyan,
+	lightMagenta: orange,
+	lightCyan: cyan,
+	lightWhite: foregroundColor
 }
 
 exports.decorateConfig = config => {
