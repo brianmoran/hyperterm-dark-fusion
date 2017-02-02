@@ -5,7 +5,7 @@
 # hyperterm-dark-fusion
 Hyperterm theme based on atom-dark-fusion https://github.com/MaxGraey/atom-dark-fusion-syntax
 
-<img src="screenshot.gif" width="400"/>
+![alt tag](https://raw.githubusercontent.com/brianmoran/hyperterm-dark-fusion/master/screenshot.gif)
 
 # Install with hpm
 `hpm install hyperterm-dark-fusion`
