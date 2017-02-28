@@ -39,11 +39,14 @@ exports.decorateConfig = config => {
 		colors: colors,
 		css: `
 			${config.css || ''}
-            .tab_tab {
-                border: 0;
+			.tab_tab {
+                border-top: 0;
+				border-left: 0;
+				border-right: 0;
+				border-bottom: 1px ${lightOrange};
             }
             .tab_textActive {
-                border-bottom: 2px solid ${orange};
+                border-bottom: 1px solid ${orange};
             }
 		`
 	})
