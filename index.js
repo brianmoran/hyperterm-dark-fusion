@@ -34,18 +34,15 @@ exports.decorateConfig = config => {
 	return Object.assign({}, config, {
 		backgroundColor,
 		foregroundColor,
-		borderColor: '#222430',
-		cursorColor: orange,
+		borderColor: `${backgroundColor}`,
+		cursorColor: `${orange}`,
 		colors: colors,
 		css: `
 			${config.css || ''}
-			.tab_tab {
-                border-top: 0;
-				border-left: 0;
-				border-right: 0;
-				border-bottom: 1px ${lightOrange};
+			.tab_text {
+				border-bottom: 1px solid ${gray};
             }
-            .tab_textActive {
+            .tab_text.tab_textActive {
                 border-bottom: 1px solid ${orange};
             }
 		`
