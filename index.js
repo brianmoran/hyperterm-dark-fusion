@@ -45,6 +45,9 @@ exports.decorateConfig = config => {
             .tab_text.tab_textActive {
                 border-bottom: 1px solid ${orange};
             }
+			.splitpane_divider {
+				border-top: 1px solid ${gray};
+			}
 		`
 	})
 }
